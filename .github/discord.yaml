@@ -1,0 +1,8 @@
+name: Discord notification
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        DISCORD_USERNAME: Discord Bot
+        DISCORD_AVATAR: https://cliparting.com/wp-content/uploads/2016/05/Cat-clip-art-download-free-danaami2-top.png
+      uses: johannaii/Advent-of-Code-19@master
+      with:
+        args: 'A new commit has been pushed to johannaii/Advent-of-Code-19.'
