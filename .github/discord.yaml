@@ -1,8 +1,8 @@
-name: Discord notification
+- name: Actions for Discord
+  uses: Ilshidur/action-discord@0.0.2
       env:
-        DISCORD_WEBHOOK: ${{ https://discordapp.com/api/webhooks/697335506177884250/fdwpldeE_MEm8t3NZpM18zwFvcWaGtcLJsxxEJWh5OOdlEeZpuQO2ZOzXBGQqxZaP7bz }}
+        DISCORD_WEBHOOK: ${{ secrets.https://discordapp.com/api/webhooks/697335506177884250/fdwpldeE_MEm8t3NZpM18zwFvcWaGtcLJsxxEJWh5OOdlEeZpuQO2ZOzXBGQqxZaP7bz }}
         DISCORD_USERNAME: Discord Bot
         DISCORD_AVATAR: https://cliparting.com/wp-content/uploads/2016/05/Cat-clip-art-download-free-danaami2-top.png
-      uses: johannaii/Advent-of-Code-19@master
       with:
         args: 'A new commit has been pushed to johannaii/Advent-of-Code-19.'
