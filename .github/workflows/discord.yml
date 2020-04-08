@@ -12,6 +12,6 @@ jobs:
       with:
         webhook_id: ${{ secrets.WEBHOOK_ID }}
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
-        color: "#FFFFFF"
+        color: "#00FFB9"
         username: "Cat Bot"
         message: "A new commit has been pushed to johannaii/Advent-of-Code-19."
